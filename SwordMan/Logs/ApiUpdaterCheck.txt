@@ -1,0 +1,30 @@
+[api-updater (non-obsolete-error-filter)] 8/7/2021 7:55:25 PM : Starting D:/laptrinh/2020.3.13f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 397.7717ms
+moved types parse time: 160ms
+candidates parse time : 3ms
+C# parse time         : 639ms
+candidates check time : 86ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 8/7/2021 7:57:46 PM : Starting D:/laptrinh/2020.3.13f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 418.8519ms
+moved types parse time: 176ms
+candidates parse time : 4ms
+C# parse time         : 913ms
+candidates check time : 102ms
+console write time    : 3ms
+
+[api-updater (non-obsolete-error-filter)] 8/7/2021 7:58:03 PM : Starting D:/laptrinh/2020.3.13f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 354.9361ms
+moved types parse time: 162ms
+candidates parse time : 4ms
+C# parse time         : 626ms
+candidates check time : 85ms
+console write time    : 1ms
+

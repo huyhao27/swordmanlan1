@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e0f929248d997d24fa80adaa46f30d2b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_rigidbody: {instanceID: 0}
+  - player: {instanceID: 0}
+  - danright: {instanceID: 0}
+  - danleft: {instanceID: 0}
+  - shootpoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
