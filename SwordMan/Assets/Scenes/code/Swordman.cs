@@ -24,16 +24,7 @@ public class Swordman : PlayerController
         right = true;
         sodan = 0;
     }
-
-    public void OnTriggerEnter2D(Collider2D orther)
-    {
-        if (orther.gameObject.CompareTag("cd"))
-        {
-            isGrounded = true;
-            player.transform.parent = orther.gameObject.transform;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D orther)
+    private void OnCollisionExit2D(Collision2D orther)
     {
         if (orther.gameObject.CompareTag("cd"))
         {
@@ -267,6 +258,11 @@ public class Swordman : PlayerController
         {
             sodan++;
             Destroy(orther.gameObject);
+        }
+        if (orther.gameObject.CompareTag("cd"))
+        {
+            isGrounded = true;
+            player.transform.parent = orther.gameObject.transform;
         }
     }
 

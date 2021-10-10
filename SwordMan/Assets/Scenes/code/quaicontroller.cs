@@ -5,7 +5,7 @@ using UnityEngine;
 public class quaicontroller : MonoBehaviour
 {
     public float dan;
-    [SerializeField] private float attackDamage = 25f;
+    [SerializeField] private float attackDamage = 20f;
     [SerializeField] private float attackSpeed = 1f;
     private float canAttack;
     //public float lookRadius = 10f; 
